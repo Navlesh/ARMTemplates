@@ -8,6 +8,7 @@
         "description": "The name of the Azure Redis Cache to create."
       }
     },
+    
     "redisCacheSKU": {
       "type": "string",
       "allowedValues": [
@@ -20,6 +21,7 @@
         "description": "The pricing tier of the new Azure Redis Cache."
       }
     },
+    
     "redisCacheFamily": {
       "type": "string",
       "defaultValue": "C",
@@ -31,6 +33,7 @@
         "P"
       ]
     },
+    
     "redisCacheCapacity": {
       "type": "int",
       "allowedValues": [
